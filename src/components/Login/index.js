@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import { Navigate } from "react-router-dom";
+import jwtDecode from "jwt-decode";
 import logo from "../../logo.svg";
 
 async function doLogin({ email, password }) {
@@ -19,17 +20,18 @@ async function doLogin({ email, password }) {
   return data.token;
 }
 
-async function doLoginGoogle({ email, password, token }) {
+async function doLoginGoogle( res ) {
   // Gunakan endpoint-mu sendiri
+  const userData = jwtDecode(res.credential)
   const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      email,
+      email : userData.email,
       password,
-      token,
+      token : res.credential,
     }),
   });
   const data = await response.json();
@@ -130,8 +132,12 @@ function Login() {
                   <GoogleOAuthProvider clientId={GOOGLECLIENTID}>
                     <GoogleLogin
                       buttonText="Login with Google"
-                      onSuccess={haldleSuccessGoogle}
-                      onError={haldleSuccessGoogle}
+                      onSuccess={(res) => {
+                        doLoginGoogle(res)
+                      } }
+                      onError={() => {
+                        doLoginGoogle("Error")
+                      }}
                       cookiePolicy={"single_host_origin"}
                     />
                   </GoogleOAuthProvider>
