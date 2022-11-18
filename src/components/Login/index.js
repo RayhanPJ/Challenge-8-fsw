@@ -20,18 +20,17 @@ async function doLogin({ email, password }) {
   return data.token;
 }
 
-async function doLoginGoogle( res ) {
+async function doLoginGoogle( res, email ) {
   // Gunakan endpoint-mu sendiri
-  const userData = jwtDecode(res.credential)
   const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      email : userData.email,
+      email,
       password,
-      token : res.credential,
+      token : res,
     }),
   });
   const data = await response.json();
@@ -60,8 +59,10 @@ function Login() {
   }
 
   const haldleSuccessGoogle = (response) => {
-    if (response.tokenId) {
-      doLoginGoogle(response.tokenId)
+    const userData = jwtDecode(response.credential)
+    // const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google"
+    if (response.credential) {
+      doLoginGoogle(response.credential, userData.email)
         .then((token) => {
           localStorage.setItem("token", token);
           setIsLoggedIn(token);
@@ -133,10 +134,10 @@ function Login() {
                     <GoogleLogin
                       buttonText="Login with Google"
                       onSuccess={(res) => {
-                        doLoginGoogle(res)
+                        haldleSuccessGoogle(res)
                       } }
                       onError={() => {
-                        doLoginGoogle("Error")
+                        haldleSuccessGoogle("Error")
                       }}
                       cookiePolicy={"single_host_origin"}
                     />
