@@ -1,0 +1,1191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Landing Page 1`] = `
+<div>
+  <div>
+    <div
+      className="container-fluid mb-5"
+    >
+      <nav
+        className="navbar navbar-expand-lg bg-putih pt-3"
+      >
+        <div
+          className="container rNav"
+        >
+          <a
+            className="navbar-brand text-light px-4"
+            href="/"
+            style={
+              Object {
+                "backgroundColor": "#0d28a6",
+              }
+            }
+          >
+            Hanz
+          </a>
+          <button
+            aria-controls="offcanvasWithBothOptions"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-bs-target="#offcanvasWithBothOptions"
+            data-bs-toggle="offcanvas"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+            className="offcanvas offcanvas-end"
+            id="offcanvasWithBothOptions"
+            tabIndex="-1"
+          >
+            <div
+              className="offcanvas-header"
+            >
+              <h5
+                className="offcanvas-title"
+                id="offcanvasWithBothOptionsLabel"
+              >
+                <a
+                  className="navbar-brand text-light px-4"
+                  href="/"
+                  style={
+                    Object {
+                      "backgroundColor": "#0d28a6",
+                    }
+                  }
+                >
+                  Hanz
+                </a>
+              </h5>
+              <button
+                aria-label="Close"
+                className="btn-close"
+                data-bs-dismiss="offcanvas"
+                type="button"
+              />
+            </div>
+            <div
+              className="offcanvas-body"
+            >
+              <div
+                className="navbar-nav ms-auto"
+              >
+                <a
+                  aria-current="page"
+                  className="nav-link me-3 text-dark"
+                  href="#ourService"
+                >
+                  Our Service
+                </a>
+                <a
+                  className="nav-link me-3 text-dark"
+                  href="#whyUs"
+                >
+                  Why Us
+                </a>
+                <a
+                  className="nav-link me-3 text-dark"
+                  href="#Testimonial"
+                >
+                  Testimonial
+                </a>
+                <a
+                  className="nav-link me-3 text-dark"
+                  href="#FAQ"
+                >
+                  FAQ
+                </a>
+                <a
+                  href="/"
+                >
+                  <button
+                    className="btn me-3"
+                    style={
+                      Object {
+                        "backgroundColor": "#5cb85f",
+                        "color": "white",
+                        "fontSize": "15px",
+                        "padding": "8px 12px",
+                      }
+                    }
+                    type="button"
+                  >
+                    Registered
+                  </button>
+                </a>
+                <a
+                  href="/login"
+                >
+                  <button
+                    className="btn"
+                    style={
+                      Object {
+                        "backgroundColor": "#5cb85f",
+                        "color": "white",
+                        "fontSize": "15px",
+                        "padding": "8px 12px",
+                      }
+                    }
+                    type="button"
+                  >
+                    Login
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div>
+    <header
+      className="bgHeader"
+    >
+      <div
+        className="container-fluid d-flex mt-3 pt-3 mb-5"
+      >
+        <div
+          className="row align-items-center"
+        >
+          <div
+            className="offset-1 col-6 content1"
+          >
+            <div
+              className="blok1"
+            >
+              <h1
+                className="mb-2 fs-2 textContent"
+              >
+                Sewa & Rental Mobil Terbaik Di Kawasan Bekasi
+              </h1>
+              <p
+                className="mb-2 textContent"
+              >
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+              </p>
+              <a
+                className="nav-link me-1"
+                href="/formcar"
+              >
+                <button
+                  aria-label="Login Require"
+                  aria-labelledby={null}
+                  className="btn btnContent"
+                  data-mui-internal-clone-element={true}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#5cb85f",
+                      "color": "white",
+                      "fontSize": "15px",
+                      "padding": "8px 12px",
+                    }
+                  }
+                  type="button"
+                >
+                  Mulai Sewa Mobil
+                </button>
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": ".css-1433tg5-MuiTooltip-popper{z-index:1500;pointer-events:none;}",
+                    }
+                  }
+                  data-emotion="css 1433tg5-MuiTooltip-popper"
+                />
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": ".css-179vq5o-MuiPopper-root-MuiTooltip-popper{z-index:1500;pointer-events:none;}",
+                    }
+                  }
+                  data-emotion="css 179vq5o-MuiPopper-root-MuiTooltip-popper"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            className="col pe-0 content1"
+          >
+            <div
+              className="blok1"
+            >
+              <img
+                alt=""
+                className="iCar float-end align-items-end"
+                src="assets/images/img_car.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div
+    className="container mt-5 pt-5 mb-5"
+    id="ourService"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-7 d-flex justify-content-center align-items-center content2"
+      >
+        <img
+          alt=""
+          className="img-fluid"
+          src="assets/images/img_service.png"
+        />
+      </div>
+      <div
+        className="col content2 mx-3"
+      >
+        <h2
+          className="mb-2 fs-2 fw-bold textContent2"
+        >
+          Best Car Rental for any kind of trip in Jabodetabek!
+        </h2>
+        <div
+          className="desc-ourserv mb-2"
+        >
+          <p
+            className="textContent2"
+          >
+            Sewa mobil di Jabodetabek bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.
+          </p>
+          <li>
+            <p
+              className="textContent2"
+            >
+              <img
+                alt=""
+                className="float-start"
+                src="assets/images/Group 53.png"
+              />
+              <span
+                className="ps-2"
+              >
+                Sewa Mobil Dengan Supir di Bali 12 Jam
+              </span>
+            </p>
+          </li>
+          <li>
+            <p
+              className="textContent2"
+            >
+              <img
+                alt=""
+                className="float-start"
+                src="assets/images/Group 53.png"
+              />
+              <span
+                className="ps-2"
+              >
+                Sewa Mobil Lepas Kunci di Bali 24 Jam
+              </span>
+            </p>
+          </li>
+          <li>
+            <p
+              className="textContent2"
+            >
+              <img
+                alt=""
+                className="float-start"
+                src="assets/images/Group 53.png"
+              />
+              <span
+                className="ps-2"
+              >
+                Sewa Mobil Jangka Panjang Bulanan
+              </span>
+            </p>
+          </li>
+          <li>
+            <p
+              className="textContent2"
+            >
+              <img
+                alt=""
+                className="float-start"
+                src="assets/images/Group 53.png"
+              />
+              <span
+                className="ps-2"
+              >
+                Gratis Antar - Jemput Mobil di Bandara
+              </span>
+            </p>
+          </li>
+          <li>
+            <p
+              className="textContent2"
+            >
+              <img
+                alt=""
+                className="float-start"
+                src="assets/images/Group 53.png"
+              />
+              <span
+                className="ps-2"
+              >
+                Layanan Airport Transfer / Drop In Out
+              </span>
+            </p>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container mt-5 pt-5 mb-5"
+    id="whyUs"
+  >
+    <h1
+      className="fs-4 fw-bold textContent3 mx-3"
+    >
+      Why Us?
+    </h1>
+    <p
+      className="pt-2 textContent3 mx-3"
+    >
+      Mengapa harus pilih Binar Car Rental?
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        className="col-3 colContent3"
+      >
+        <div
+          className="card mt-4"
+          style={
+            Object {
+              "height": "13rem",
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card-body textContent3"
+          >
+            <img
+              alt=""
+              className="img-fluid mb-3"
+              src="assets/images/icon_complete1.png"
+            />
+            <h5
+              className="card-title"
+            >
+              Mobil Lengkap
+            </h5>
+            <p
+              className="card-text fs-6"
+            >
+              Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-3 colContent3"
+      >
+        <div
+          className="card mt-4"
+          style={
+            Object {
+              "height": "13rem",
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card-body textContent3"
+          >
+            <img
+              alt=""
+              className="img-fluid mb-3"
+              src="assets/images/icon_price.png"
+            />
+            <h5
+              className="card-title"
+            >
+              Harga Murah
+            </h5>
+            <p
+              className="card-text fs-6"
+            >
+              Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-3 colContent3"
+      >
+        <div
+          className="card mt-4"
+          style={
+            Object {
+              "height": "13rem",
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card-body textContent3"
+          >
+            <img
+              alt=""
+              className="img-fluid mb-3"
+              src="assets/images/icon_24hrs.png"
+            />
+            <h5
+              className="card-title"
+            >
+              Layanan 24 Jam
+            </h5>
+            <p
+              className="card-text fs-6"
+            >
+              Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-3 colContent3"
+      >
+        <div
+          className="card mt-4"
+          style={
+            Object {
+              "height": "13rem",
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card-body textContent3"
+          >
+            <img
+              alt=""
+              className="img-fluid mb-3"
+              src="assets/images/icon_professional.png"
+            />
+            <h5
+              className="card-title"
+            >
+              Sopir Profesional
+            </h5>
+            <p
+              className="card-text fs-6"
+            >
+              Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container mt-5 pt-5 mb-5"
+    id="Testimonial"
+  >
+    <h1
+      className="fs-4 text-center fw-bold"
+    >
+      Testimonial
+    </h1>
+    <p
+      className="text-center py-3"
+    >
+      Berbagai review positif dari para pelanggan kami
+    </p>
+    <div
+      className="carousel slide mx-auto"
+      data-bs-ride="carousel"
+      id="carouselExampleControls"
+      style={
+        Object {
+          "maxWidth": "100%",
+        }
+      }
+    >
+      <div
+        className="carousel-inner bg-aliceblue"
+        style={
+          Object {
+            "borderRadius": "20px",
+          }
+        }
+      >
+        <div
+          className="carousel-item active bg-aliceblue"
+        >
+          <div
+            className="row mx-4 my-5"
+          >
+            <div
+              className="col-xl-2 m-auto"
+            >
+              <img
+                alt="Person"
+                className="d-block testimonial-img m-auto"
+                src="assets/images/photo1-testimoni.png"
+              />
+            </div>
+            <div
+              className="col-xl-10"
+            >
+              <img
+                alt="Rating"
+                className="testimonial-rating"
+                src="assets/images/Rate.png"
+              />
+              <p
+                className="textContent4"
+              >
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+              </p>
+              <p
+                className="textContent4"
+              >
+                John Dee 32, Bromo
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="carousel-item bg-aliceblue"
+        >
+          <div
+            className="row mx-4 my-5"
+          >
+            <div
+              className="col-xl-2 m-auto"
+            >
+              <img
+                alt="Person"
+                className="d-block testimonial-img m-auto"
+                src="assets/images/photo2-testimoni.png"
+              />
+            </div>
+            <div
+              className="col-xl-10"
+            >
+              <img
+                alt="Rating"
+                className="testimonial-rating"
+                src="assets/images/Rate.png"
+              />
+              <p
+                className="textContent4"
+              >
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod””
+              </p>
+              <p
+                className="textContent4"
+              >
+                John Dee 32, Bromo
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="carousel-item bg-aliceblue"
+        >
+          <div
+            className="row mx-4 my-5"
+          >
+            <div
+              className="col-xl-2 m-auto"
+            >
+              <img
+                alt="Person"
+                className="d-block testimonial-img m-auto"
+                src="assets/images/photo1-testimoni.png"
+              />
+            </div>
+            <div
+              className="col-xl-10"
+            >
+              <img
+                alt="Rating"
+                className="testimonial-rating"
+                src="assets/images/Rate.png"
+              />
+              <p
+                className="textContent4"
+              >
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod””
+              </p>
+              <p
+                className="textContent4"
+              >
+                John Dee 32, Bromo
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="text-center"
+      >
+        <a
+          className="testimonial-media"
+          data-bs-slide="prev"
+          data-bs-target="#carouselExampleControls"
+          href="/"
+          type="button"
+        >
+          <svg
+            className="bi bi-arrow-left-circle"
+            fill="currentColor"
+            height="30"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+        <a
+          className="testimonial-media"
+          data-bs-slide="next"
+          data-bs-target="#carouselExampleControls"
+          href="/"
+          type="button"
+        >
+          <svg
+            className="bi bi-arrow-right-circle"
+            fill="currentColor"
+            height="30"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container mt-5 pt-5 mb-5"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col mx-2 py-3 bgCTA"
+      >
+        <h1
+          className="text-light text-center fs-2 fw-bold mt-5 textContent5"
+        >
+          Sewa Mobil di (Lokasimu) Sekarang
+        </h1>
+        <div
+          className="mt-5"
+        >
+          <p
+            className="textContent5 text-center text-light"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem dicta nam quas corporis tempora dignissimos pariatur architecto aut quam.
+          </p>
+        </div>
+        <div
+          className="d-flex justify-content-center mt-5"
+        >
+          <a
+            href="/formcar"
+          >
+            <button
+              className="btn"
+              style={
+                Object {
+                  "backgroundColor": "#5cb85f",
+                  "color": "wheat",
+                  "fontSize": "12px",
+                  "padding": "8px 12px",
+                }
+              }
+              type="button"
+            >
+              Mulai Sewa Mobil
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container mt-5 pt-5 mb-5"
+    id="FAQ"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <h1
+          className="fs-4 fw-bold"
+        >
+          Frequently Asked Question
+        </h1>
+        <p
+          className="fs mt-3"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+      </div>
+      <div
+        className="col-md-6 mt-4"
+      >
+        <div
+          className="accordion"
+          id="accordionExample"
+        >
+          <div
+            className="accordion-item"
+          >
+            <h2
+              className="accordion-header"
+              id="headingOne"
+            >
+              <button
+                aria-controls="collapseOne"
+                aria-expanded="true"
+                className="accordion-button"
+                data-bs-target="#collapseOne"
+                data-bs-toggle="collapse"
+                type="button"
+              >
+                Apa saja syarat yang dibutuhkan?
+              </button>
+            </h2>
+            <div
+              aria-labelledby="headingOne"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+              id="collapseOne"
+            >
+              <div
+                className="accordion-body"
+              >
+                <strong>
+                  This is the third item's accordion body.
+                </strong>
+                It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classNamees that we use to style each element.
+                  These classNamees control the overall appearance, as well as
+                  the showing and hiding via CSS transitions. You can modify any
+                  of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within
+                  the
+                <code>
+                  .accordion-body
+                </code>
+                , though the transition does limit
+                  overflow.
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-item"
+          >
+            <h2
+              className="accordion-header"
+              id="headingTwo"
+            >
+              <button
+                aria-controls="collapseTwo"
+                aria-expanded="false"
+                className="accordion-button collapsed"
+                data-bs-target="#collapseTwo"
+                data-bs-toggle="collapse"
+                type="button"
+              >
+                Berapa hari minimal sewa mobil lepas kunci?
+              </button>
+            </h2>
+            <div
+              aria-labelledby="headingTwo"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+              id="collapseTwo"
+            >
+              <div
+                className="accordion-body"
+              >
+                <strong>
+                  This is the third item's accordion body.
+                </strong>
+                It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classNamees that we use to style each element.
+                  These classNamees control the overall appearance, as well as
+                  the showing and hiding via CSS transitions. You can modify any
+                  of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within
+                  the
+                <code>
+                  .accordion-body
+                </code>
+                , though the transition does limit
+                  overflow.
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-item"
+          >
+            <h2
+              className="accordion-header"
+              id="headingThree"
+            >
+              <button
+                aria-controls="collapseThree"
+                aria-expanded="false"
+                className="accordion-button collapsed"
+                data-bs-target="#collapseThree"
+                data-bs-toggle="collapse"
+                type="button"
+              >
+                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+              </button>
+            </h2>
+            <div
+              aria-labelledby="headingThree"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+              id="collapseThree"
+            >
+              <div
+                className="accordion-body"
+              >
+                <strong>
+                  This is the third item's accordion body.
+                </strong>
+                It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classNamees that we use to style each element.
+                  These classNamees control the overall appearance, as well as
+                  the showing and hiding via CSS transitions. You can modify any
+                  of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within
+                  the
+                <code>
+                  .accordion-body
+                </code>
+                , though the transition does limit
+                  overflow.
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-item"
+          >
+            <h2
+              className="accordion-header"
+              id="headingFour"
+            >
+              <button
+                aria-controls="collapseFour"
+                aria-expanded="false"
+                className="accordion-button collapsed"
+                data-bs-target="#collapseFour"
+                data-bs-toggle="collapse"
+                type="button"
+              >
+                Apakah Ada biaya antar-jemput?
+              </button>
+            </h2>
+            <div
+              aria-labelledby="headingFour"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+              id="collapseFour"
+            >
+              <div
+                className="accordion-body"
+              >
+                <strong>
+                  This is the third item's accordion body.
+                </strong>
+                It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classNamees that we use to style each element.
+                  These classNamees control the overall appearance, as well as
+                  the showing and hiding via CSS transitions. You can modify any
+                  of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within
+                  the
+                <code>
+                  .accordion-body
+                </code>
+                , though the transition does limit
+                  overflow.
+              </div>
+            </div>
+          </div>
+          <div
+            className="accordion-item"
+          >
+            <h2
+              className="accordion-header"
+              id="headingFive"
+            >
+              <button
+                aria-controls="collapseFive"
+                aria-expanded="false"
+                className="accordion-button collapsed"
+                data-bs-target="#collapseFive"
+                data-bs-toggle="collapse"
+                type="button"
+              >
+                Bagaimana jika terjadi kecelakaan
+              </button>
+            </h2>
+            <div
+              aria-labelledby="headingFive"
+              className="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+              id="collapseFive"
+            >
+              <div
+                className="accordion-body"
+              >
+                <strong>
+                  This is the third item's accordion body.
+                </strong>
+                It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classNamees that we use to style each element.
+                  These classNamees control the overall appearance, as well as
+                  the showing and hiding via CSS transitions. You can modify any
+                  of this with custom CSS or overriding our default variables.
+                  It's also worth noting that just about any HTML can go within
+                  the
+                <code>
+                  .accordion-body
+                </code>
+                , though the transition does limit
+                  overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer>
+      <div
+        className="container mt-5 pt-5"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4 pb-3"
+          >
+            <p
+              className="textContent5"
+            >
+              Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
+            </p>
+            <p
+              className="textContent5"
+            >
+              binarcarrental@gmail.com
+            </p>
+            <p
+              className="textContent5"
+            >
+              081-233-334-808
+            </p>
+          </div>
+          <div
+            className="col-md-2 pb-3"
+          >
+            <li
+              className="mb-1"
+            >
+              <a
+                className="textContent5"
+                href="#ourService"
+                style={
+                  Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+                }
+              >
+                Our services
+              </a>
+            </li>
+            <li
+              className="mb-1"
+            >
+              <a
+                className="textContent5"
+                href="#whyUs"
+                style={
+                  Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+                }
+              >
+                Why Us
+              </a>
+            </li>
+            <li
+              className="mb-1"
+            >
+              <a
+                className="textContent5"
+                href="#Testimonial"
+                style={
+                  Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+                }
+              >
+                Testimonial
+              </a>
+            </li>
+            <li
+              className="mb-1"
+            >
+              <a
+                className="textContent5"
+                href="#FAQ"
+                style={
+                  Object {
+                    "color": "black",
+                    "textDecoration": "none",
+                  }
+                }
+              >
+                FAQ
+              </a>
+            </li>
+          </div>
+          <div
+            className="col-md-3 pb-3"
+          >
+            <p
+              className="textContent5"
+            >
+              Connect with us
+            </p>
+            <ul
+              id="inline"
+            >
+              <li>
+                <a
+                  href="/"
+                >
+                  <img
+                    alt=""
+                    src="assets/images/icon_facebook.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  <img
+                    alt=""
+                    src="assets/images/icon_instagram.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  <img
+                    alt=""
+                    src="assets/images/icon_mail.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  <img
+                    alt=""
+                    src="assets/images/icon_twitch.png"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  <img
+                    alt=""
+                    src="assets/images/icon_twitter.png"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-md-3 pb-3"
+          >
+            <p
+              className="textContent5"
+            >
+              Copyright Binar 2022
+            </p>
+            <div
+              className="box-logo"
+            >
+              <h4
+                className="fw-5 text-light text-center"
+              >
+                <a
+                  href="/"
+                  style={
+                    Object {
+                      "color": "white",
+                      "textDecoration": "none",
+                    }
+                  }
+                >
+                  Hanz
+                </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

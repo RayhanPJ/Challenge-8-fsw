@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgHeader {
+    background-color: #f1f3ff;
+}
+
+.bgCTA {
+    background-color: #0d28a6;
+    border-radius: 20px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg-aliceblue {
+    background-color: #f1f3ff;
+    border-radius: 20px;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial-rating {
+    max-height: 16px;
+}
+
+.testimonial-media:hover {
+    background-color: #5cb85f;
+    color: white;
+}
+
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+
+#inline {
+    margin-top: -10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#inline li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.box-logo {
+    background-color: #0d28a6;
+    width: 100px;
+    height: 34px;
+}
+
+.mCont {
+    margin-top: 80px;
+}
+
+.sewaMobil {
+    z-index: 99;
+    position: relative;
+}
+
+
+/* Responsive */
+
+@media screen and (max-device-width: 1440px) {
+    .iCar {
+        width: 100%;
+        height: 100%;
+    }
+    .colContent3 {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-device-width: 1024px) {
+    .iCar {
+        width: 100%;
+    }
+    .textContent {
+        font-size: 12px;
+    }
+    .btnContent {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .colContent3 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-device-width: 820px) {
+    .content2 {
+        width: 100%;
+        margin-top: 3em;
+    }
+    .textContent2 {
+        font-size: 16px;
+        text-align: start;
+    }
+    .textContent {
+        width: 320px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .btnContent {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    .textContent {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .content2 {
+        width: 100%;
+        margin-top: 3em;
+    }
+    .textContent2 {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .rNav {
+        font-size: 18px;
+        margin-top: 1em;
+    }
+    .content1 {
+        width: 90%;
+    }
+    .textContent {
+        font-size: 24px;
+        width: 620px;
+        margin-top: 1em;
+    }
+    .btnContent {
+        font-size: 24px;
+        padding: 8px 12px;
+        margin-top: 1em;
+    }
+    .iCar {
+        margin-top: 5em;
+        width: 690px;
+    }
+    .textContent4 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    .content2 {
+        width: 100%;
+        margin-top: 3em;
+    }
+    .textContent2 {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .rNav {
+        font-size: 16px;
+        margin-top: 1em;
+    }
+    .iCar {
+        width: 100%;
+    }
+    .textContent {
+        font-size: 24px;
+        width: 420px;
+        margin-top: 1em;
+    }
+    .colContent3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .textContent3 {
+        font-size: 16px;
+    }
+    .textContent5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-device-width: 460px) and (orientation: portrait) {
+    .content2 {
+        width: 100%;
+        margin-top: 3em;
+    }
+    .textContent2 {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .rNav {
+        font-size: 14px;
+        margin-top: 1em;
+    }
+    .textContent {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 1em;
+    }
+    .btnContent {
+        font-size: 14px;
+        padding: 6px 8px;
+        margin-top: 1em;
+    }
+    .iCar {
+        width: 100%;
+    }
+    .textContent4 {
+        font-size: 14px;
+    }
+    .textContent5 {
+        font-size: 14px;
+    }
+}
