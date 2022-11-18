@@ -29,7 +29,7 @@ async function doLoginGoogle( res, email ) {
     },
     body: JSON.stringify({
       email,
-      password,
+      password : "",
       token : res,
     }),
   });
