@@ -5,7 +5,7 @@ import logo from "../../logo.svg";
 
 async function doLogin({ email, password }) {
   // Gunakan endpoint-mu sendiri
-  const response = await fetch("http://localhost:8000/api/v1/login/", {
+  const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/login/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -21,7 +21,7 @@ async function doLogin({ email, password }) {
 
 async function doLoginGoogle({ email, password, token }) {
   // Gunakan endpoint-mu sendiri
-  const response = await fetch("http://localhost:8000/api/v1/google", {
+  const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -42,7 +42,7 @@ function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const token = localStorage.getItem("token");
-  const GOOGLECLIENTID = "979909028362-m77kbte3cel9jompo35lvn4fsg3vv882.apps.googleusercontent.com";
+  const GOOGLECLIENTID = "1075166577960-qiqbp7khn8e0e50mrgf01hcci3kognqf.apps.googleusercontent.com";
 
   useEffect(() => {
     setIsLoggedIn(!!token);
