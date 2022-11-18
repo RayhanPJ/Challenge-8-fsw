@@ -6,33 +6,39 @@ import logo from "../../logo.svg";
 
 async function doLogin({ email, password }) {
   // Gunakan endpoint-mu sendiri
-  const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/login/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      email,
-      password,
-    }),
-  });
+  const response = await fetch(
+    "https://challenge-8-be-fsw-production.up.railway.app/api/v1/login/",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    }
+  );
   const data = await response.json();
   return data.token;
 }
 
-async function doLoginGoogle( res, email ) {
+async function doLoginGoogle(res, email) {
   // Gunakan endpoint-mu sendiri
-  const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      email,
-      password : "",
-      token : res,
-    }),
-  });
+  const response = await fetch(
+    "https://challenge-8-be-fsw-production.up.railway.app/api/v1/google",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password: "",
+        token: res,
+      }),
+    }
+  );
   const data = await response.json();
   return data.token;
 }
@@ -59,7 +65,7 @@ function Login() {
   }
 
   const haldleSuccessGoogle = (response) => {
-    const userData = jwtDecode(response.credential)
+    const userData = jwtDecode(response.credential);
     // const response = await fetch("https://challenge-8-be-fsw-production.up.railway.app/api/v1/google"
     if (response.credential) {
       doLoginGoogle(response.credential, userData.email)
@@ -134,10 +140,10 @@ function Login() {
                     <GoogleLogin
                       buttonText="Login with Google"
                       onSuccess={(res) => {
-                        haldleSuccessGoogle(res)
-                      } }
+                        haldleSuccessGoogle(res);
+                      }}
                       onError={() => {
-                        haldleSuccessGoogle("Error")
+                        haldleSuccessGoogle("Error");
                       }}
                       cookiePolicy={"single_host_origin"}
                     />

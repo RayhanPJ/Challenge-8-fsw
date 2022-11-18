@@ -1,6 +1,6 @@
 import React from "react";
 import { create } from "react-test-renderer";
-import { LandingPage, Login } from "./components";
+import { LandingPage } from "./components";
 
 const FirstPage = create(<LandingPage />);
 
