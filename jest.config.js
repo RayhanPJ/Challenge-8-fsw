@@ -6,7 +6,6 @@
 module.exports = {
   moduleNameMapper: {
     '^axios$': require.resolve('axios'),
-    '\\.svg$': '<rootDir>/src/__mocks__/svg.js',
   },
   // transform: {
   //   "^.+\\.js$": "<rootDir>/src/actions/listCarAction.js",

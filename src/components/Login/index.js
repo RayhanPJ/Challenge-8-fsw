@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { GoogleLogin } from "react-google-login";
+import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import { Navigate } from "react-router-dom";
-import { ReactComponent as logo } from "../../logo.svg";
+import logo from "../../logo.svg";
 
 async function doLogin({ email, password }) {
   // Gunakan endpoint-mu sendiri
@@ -115,7 +115,6 @@ function Login() {
                       required
                     />
                   </div>
-
                   <a href="/" className="forgot">
                     Back to the site
                   </a>
@@ -123,19 +122,20 @@ function Login() {
                   <a href="/" className="forgot">
                     Forgot your password?
                   </a>
-
                   <input
                     type="submit"
                     value={isLoading ? "Loading" : "Login"}
                   />
                   <br />
-                  <GoogleLogin
-                    clientId={GOOGLECLIENTID}
-                    buttonText="Login with Google"
-                    onSuccess={haldleSuccessGoogle}
-                    onFailure={haldleSuccessGoogle}
-                    cookiePolicy={"single_host_origin"}
-                  />
+                  <GoogleOAuthProvider clientId={GOOGLECLIENTID}>
+                    <GoogleLogin
+                      buttonText="Login with Google"
+                      onSuccess={haldleSuccessGoogle}
+                      onError={haldleSuccessGoogle}
+                      cookiePolicy={"single_host_origin"}
+                    />
+                  </GoogleOAuthProvider>
+                  ;
                 </form>
               </div>
             ) : (
