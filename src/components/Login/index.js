@@ -51,7 +51,8 @@ async function profile() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        
+        email,
+        token: res,
       }),
     }
   );
