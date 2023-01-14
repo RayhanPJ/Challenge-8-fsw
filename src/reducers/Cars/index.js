@@ -7,7 +7,7 @@ const initialState = {
 };
 
 const car = (action, state = initialState) => {
-  switch (action) {
+  switch (action.type) {
     case GET_LIST_CARS:
       return {
         ...state,

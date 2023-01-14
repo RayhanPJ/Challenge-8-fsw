@@ -17,7 +17,7 @@ function DateTime(hasil) {
 }
 
 function ListCars({ penumpang, supir, date, time }) {
-  const { getListCarsResult, getListCarsLoading, getListCarsError } = useSelector((state) => state.car);
+  const { getListCarsResult, getListCarsLoading, getListCarsError } = useSelector((state) => state.Cars);
   const dispatch = useDispatch();
   const jumlah = penumpang;
   const tipe = supir === "true" ? true : false;
@@ -31,6 +31,7 @@ function ListCars({ penumpang, supir, date, time }) {
   return (
     <div className="container-fluid" style={{ padding: "100px" }}>
       <div className="row d-flex justify-content-center" id="cars-container">
+        {console.log(getListCarsResult)}
         {getListCarsResult ? (
           getListCarsResult
             .filter(

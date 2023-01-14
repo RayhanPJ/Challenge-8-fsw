@@ -16,6 +16,7 @@ export const getListCars = () => {
     axios({
       method: "GET",
       url: "https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json",
+      timeout: 120000,
     })
       .then((response) => {
         dispatch({
@@ -33,7 +34,7 @@ export const getListCars = () => {
           payload: {
             loading: false,
             data: false,
-            errorMessage: error.massage,
+            errorMessage: error.message,
           },
         });
       });

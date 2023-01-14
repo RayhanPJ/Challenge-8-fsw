@@ -26,7 +26,7 @@ async function doLogin({ email, password }) {
 async function doLoginGoogle(res, email) {
   // Gunakan endpoint-mu sendiri
   const response = await fetch(
-    "https://challenge-8-be-fsw-production.up.railway.app/api/v1/google",
+    "https://gotravel-production.up.railway.app/api/v1/google",
     {
       method: "POST",
       headers: {
@@ -34,8 +34,24 @@ async function doLoginGoogle(res, email) {
       },
       body: JSON.stringify({
         email,
-        password: "",
         token: res,
+      }),
+    }
+  );
+  const data = await response.json();
+  return data.token;
+}
+async function profile() {
+  // Gunakan endpoint-mu sendiri
+  const response = await fetch(
+    "https://gotravel-production.up.railway.app/api/v1/profile",
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        
       }),
     }
   );
@@ -49,7 +65,7 @@ function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const token = localStorage.getItem("token");
-  const GOOGLECLIENTID = "1075166577960-qiqbp7khn8e0e50mrgf01hcci3kognqf.apps.googleusercontent.com";
+  const GOOGLECLIENTID = "1075166577960-t9j4kguud7mo2dkaij6k3o5qu9rfna1b.apps.googleusercontent.com";
 
   useEffect(() => {
     setIsLoggedIn(!!token);
@@ -152,7 +168,7 @@ function Login() {
                 </form>
               </div>
             ) : (
-              <Navigate to="/"></Navigate>
+              <p>{profile}</p>
             )}
           </div>
         </div>

@@ -37,6 +37,7 @@ class FormCar extends React.Component {
       this.state.date,
       this.state.time,
     ];
+    console.log(data1);
 
     return data1;
   }
@@ -125,7 +126,6 @@ class FormCar extends React.Component {
         </div>
         <div className="container">
           <ListCars
-            submit={this.handleSubmit}
             data={this.data}
             penumpang={this.state.penumpang}
             supir={this.state.supir}
